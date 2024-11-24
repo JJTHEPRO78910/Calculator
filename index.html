@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <style> 
+            body {
+                text-align: center;
+            }
+        </style>
+        <script src="script.js"> </script>
+    </head>
+    <body>
+        <h1> Calculator </h1>
+        <label> Enter a number </label>
+        <input type="number" id="num1">
+        <br> 
+        <br> 
+        <label> Enter a number </label>
+        <input type="number" id="num2">
+        <br>
+        <br> 
+        <button onclick="sum()"> Add </button>
+        <button onclick="product()"> Multiply </button>
+        <button onclick="quotient()"> Divide </button>
+        <button onclick="difference()" > Subtract </button>
+       <br>
+        <br>
+        <label id="ans"> </label>
+        <label id="ans1"> </label>
+        <label id="ans2"> </label>
+        <label id="ans3"> </label>
+        <br>
+        <br>
+        <small> Make sure you refresh after every calculation otherwise it will not work!</small>
+    </body>
+</html>
